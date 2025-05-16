@@ -58,3 +58,20 @@ function dropTrash() {
 
 // New trash every 5 seconds
 setInterval(dropTrash, 5000);
+
+document.querySelectorAll('.section').forEach(section => {
+  const productContent = section.querySelector('.combs-content, .sunglasses-content, .plantpot-content, .rings-content, .carabina-content');
+  if (productContent) {
+    // Add initial float class to text and image
+    const text = productContent.querySelector('div');
+    const img = productContent.querySelector('img');
+    if (text) text.classList.add('product-float');
+    if (img) img.classList.add('product-float');
+
+    // Animate on section click
+    section.addEventListener('click', () => {
+      if (text) text.classList.add('product-float-in');
+      if (img) img.classList.add('product-float-in');
+    });
+  }
+});

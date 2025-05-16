@@ -296,3 +296,202 @@ body::before {
   background: rgba(255, 255, 255, 0.4);
   transform: scale(1.05);
 }
+
+/* Add near the end of your CSS file */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&display=swap');
+
+.combs-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #0a3d62;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.combs-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.combs-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #123;
+  max-width: 350px;
+  background: rgba(255,255,255,0.7);
+  padding: 24px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  line-height: 1.7;
+}
+
+.combs-text .highlight {
+  color: #0077b6;
+  font-weight: bold;
+  background: linear-gradient(90deg, #caf0f8 60%, #90e0ef 100%);
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.comb-image {
+  width: 252px;           /* 180px * 1.4 = 252px */
+  max-width: 56vw;        /* 40vw * 1.4 = 56vw */
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .combs-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .comb-image {
+    width: 98vw;          /* 70vw * 1.4 = 98vw */
+    max-width: 350px;     /* 250px * 1.4 = 350px */
+  }
+}
+
+/* Sunglasses, Plantpots, Rings sections styles */
+.sunglasses-section h2,
+.plantpot-section h2,
+.rings-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #0a3d62;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.sunglasses-content,
+.plantpot-content,
+.rings-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sunglasses-text,
+.plantpot-text,
+.rings-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #123;
+  max-width: 350px;
+  background: rgba(255,255,255,0.7);
+  padding: 24px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  line-height: 1.7;
+}
+
+.sunglasses-text .highlight,
+.plantpot-text .highlight,
+.rings-text .highlight {
+  color: #0077b6;
+  font-weight: bold;
+  background: linear-gradient(90deg, #caf0f8 60%, #90e0ef 100%);
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.sunglasses-image,
+.plantpot-image,
+.rings-image {
+  width: 252px;           /* 180px * 1.4 = 252px */
+  max-width: 56vw;        /* 40vw * 1.4 = 56vw */
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .sunglasses-content,
+  .plantpot-content,
+  .rings-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sunglasses-image,
+  .plantpot-image,
+  .rings-image {
+    width: 98vw;          /* 70vw * 1.4 = 98vw */
+    max-width: 350px;     /* 250px * 1.4 = 350px */
+  }
+}
+
+/* Carabinas section styles */
+.carabina-section h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #0a3d62;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.carabina-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.carabina-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: #123;
+  max-width: 350px;
+  background: rgba(255,255,255,0.7);
+  padding: 24px 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.07);
+  line-height: 1.7;
+}
+
+.carabina-text .highlight {
+  color: #0077b6;
+  font-weight: bold;
+  background: linear-gradient(90deg, #caf0f8 60%, #90e0ef 100%);
+  border-radius: 4px;
+  padding: 0 3px;
+}
+
+.carabina-image {
+  width: 252px;           /* 180px * 1.4 = 252px */
+  max-width: 56vw;        /* 40vw * 1.4 = 56vw */
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+  margin-top: 0;
+}
+
+@media (max-width: 700px) {
+  .carabina-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .carabina-image {
+    width: 98vw;          /* 70vw * 1.4 = 98vw */
+    max-width: 350px;     /* 250px * 1.4 = 350px */
+  }
+}
+
+/* Add near the end of your CSS file */
+
+.product-float-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.7s cubic-bezier(.4,2,.6,1), transform 0.7s cubic-bezier(.4,2,.6,1);
+}
+
+.product-float {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.7s cubic-bezier(.4,2,.6,1), transform 0.7s cubic-bezier(.4,2,.6,1);
+}
